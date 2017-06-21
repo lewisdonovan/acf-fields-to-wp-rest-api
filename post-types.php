@@ -1,7 +1,7 @@
 <?php
 
 //LOOP THROUGH POST TYPES AND ADD ACF FIELDS TO API
-add_action( 'init', 'sme_hook_all_post_types', 10 );
+add_action( 'init', 'sme_hook_all_post_types', 99 );
 function sme_hook_all_post_types(){
 
   //Get all the post types
