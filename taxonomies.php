@@ -1,7 +1,7 @@
 <?php
 
 //LOOP THROUGH TAXONOMIES AND ADD ACF FIELDS TO API
-add_action( 'init', 'sme_hook_all_terms', 10 );
+add_action( 'init', 'sme_hook_all_terms', 99 );
 function sme_hook_all_terms(){
   $taxonomies = array_keys( get_taxonomies() );
 
