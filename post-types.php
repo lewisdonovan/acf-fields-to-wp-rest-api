@@ -1,8 +1,8 @@
 <?php
 
 //LOOP THROUGH POST TYPES AND ADD ACF FIELDS TO API
-add_action( 'rest_api_init', 'sme_hook_all_post_types', 99 );
-function sme_hook_all_post_types(){
+add_action( 'rest_api_init', 'acf2api_hook_all_post_types', 99 );
+function acf2api_hook_all_post_types(){
 
   //Get all the post types
   global $wp_post_types;

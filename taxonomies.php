@@ -1,8 +1,8 @@
 <?php
 
 //LOOP THROUGH TAXONOMIES AND ADD ACF FIELDS TO API
-add_action( 'rest_api_init', 'sme_hook_all_terms', 99 );
-function sme_hook_all_terms(){
+add_action( 'rest_api_init', 'acf2api_hook_all_terms', 99 );
+function acf2api_hook_all_terms(){
   $taxonomies = array_keys( get_taxonomies() );
 
   foreach ($taxonomies as $taxonomy) {
