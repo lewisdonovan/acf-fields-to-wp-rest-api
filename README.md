@@ -1,4 +1,9 @@
-# acf-fields-to-wp-rest-api
+# ACF Fields to REST API
+
+<p align="center">
+  <img src="https://lewisdonovan.dev/img/posts/acf-fields-to-wp-rest-api.jpg">
+</p>
+
 Programmatically add data from Advanced Custom Fields to the Wordpress REST API
 
 Simply install and activate the plugin. All existing and new ACF fields will be imported into the API.
