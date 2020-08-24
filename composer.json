@@ -1,0 +1,12 @@
+{
+    "name": "lewisdonovan/acf-fields-to-wp-rest-api",
+    "type": "wordpress-plugin",
+    "description": "Programmatically add data from Advanced Custom Fields to the Wordpress REST API.",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Lewis Donovan",
+            "email": "lewis.donovan@sonymusic.com"
+        }
+    ]
+}
